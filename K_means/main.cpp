@@ -22,6 +22,7 @@ int main(int argc, char*argv[])
     }
 
     vector<vector<vector<double>>> X=K_mean(renderer,in,4);
+        // hey, the 4 hey u can change to any value you want providing it is an interger bigger than 0
     SDL_Event e;
     while(true)
     {
@@ -35,5 +36,6 @@ int main(int argc, char*argv[])
         };
     };
     };
+    // delay to see the result, 
 
 }
