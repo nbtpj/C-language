@@ -70,7 +70,7 @@ using namespace std;
             for(int i=0;i<in[0].size();i++) X.push_back(rand()% M);
             centers.push_back(X);
         };
-        //centers={{202,458},{410,217},{159,210},{408,391},{282,132}};
+        //centers={{202,458},{410,217},{159,210},{408,391},{282,132}}; this line i add to make it word better for one unique data set, so do not unlock this line in your program
 
 
 
@@ -83,7 +83,7 @@ using namespace std;
             for(int i=0;i<3;i++) X.push_back(rand()%255);
             colors.push_back(X);
         };
-        //cout<<"initializing done!"<<endl;
+        //cout<<"initializing done!"<<endl; just 4 check
         bool updated= true;
         SDL_Event e;
         while(updated)
@@ -99,7 +99,7 @@ using namespace std;
             {
                 mem.resize(0);
             };
-            // cout<<"update result: done!\n";
+            // cout<<"update result: done!\n"; check 2 :))
             // update point
             for(int i=0;i<in.size();i++)
             {
@@ -131,9 +131,8 @@ using namespace std;
             }
             else
                 { sum1=sum2;};
-            // cout<<"update center for each point: done!\n";
+            // cout<<"update center for each point: done!\n"; still check :))
             // update center
-            //SDL_RenderClear(renderer);
 
             for(int i=0;i<centers.size();i++)
             {
