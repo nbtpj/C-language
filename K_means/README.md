@@ -1,6 +1,8 @@
 Hi
 this small project took me nearly a day to finish, so I think, personally, the algorithm I did use is not the best one. All I did is translating algorithm from google into C++ language.
 
+You can reuse these codes, I don't have any problem with this. hopefully they can help you
+
 Because I so lazy :(((, there is  still no update :(
 
 I will explain my code below ( just 2 function I think important) :
