@@ -20,6 +20,7 @@ vector<vector<double>>Get(SDL_Renderer*renderer)
                 }
             else if(e.type==SDL_MOUSEBUTTONDOWN)
             {
+                // clich into the window to make point
                 int x,y;
                 SDL_GetMouseState(&x,&y);
                 vector<double>Y;
@@ -32,6 +33,7 @@ vector<vector<double>>Get(SDL_Renderer*renderer)
             }
         }
     }
+    // they mean press any key when you are done
 
 
 }
