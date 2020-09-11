@@ -3,7 +3,7 @@
 #include"pre_proccessing.h"
 #include"visual.h"
 
-vector<vector<vector<long double>>> hca(SDL_Renderer*renderer,vector<vector<long double>>in, int k=1, int height=800, int width =1000)
+vector<vector<vector<long double>>> hc(SDL_Renderer*renderer,vector<vector<long double>>in, int k=1, int height=800, int width =1000)
 {
     int number_of_clusters=in.size();
     vector<vector<vector<long double>>> result;
