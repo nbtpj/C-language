@@ -47,7 +47,7 @@ public:
         for(int i=0;i<28;i++)
         {
             for(int j=0;j<28;j++)
-                out<<setw(4)<<x.value[i][j];
+                out<<setw(4)<<x.value[i][j]<<' ';
                 out<<endl;
         }
         out<<endl;
